@@ -1,5 +1,4 @@
 const config = require('./libs/config')
-
 exports.config = {
   // Specify Test Files
   specs: [
