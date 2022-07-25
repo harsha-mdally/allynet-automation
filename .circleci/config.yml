@@ -19,3 +19,7 @@ workflows:
           version: '16.10'
           # If you are using yarn, change the line below from "npm" to "yarn"
           pkg-manager: npm
+
+      - run:
+        name: browser stack test
+        command: npm test -- --spec specs/provider/ACD-938-SignInToAllyNetByAllUsers.js
